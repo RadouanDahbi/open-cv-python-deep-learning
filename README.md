@@ -1,6 +1,6 @@
-# Nom final de la formation
+# L'essentiel d'OpenCV avec Python pour le deep learning
 
-Ce dossier Repository est lié au cours `Nom final de la formation`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier Repository est lié au cours `L'essentiel d'OpenCV avec Python pour le deep learning`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
 ![Nom final de la formation][lil-thumbnail-url] 
 
@@ -27,13 +27,13 @@ La branche master correspond au code à la fin de la formation.
 
 ### Formateur
 
-**Nom du formateur** 
+**Madjid Khichane** 
 
  Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com
 [lil-thumbnail-url]: https:
-[lil-URL-trainer]: https://
+[lil-URL-trainer]: [https://](https://www.linkedin.com/learning/instructors/madjid-khichane)
 
 [1]: # (End of FR-Instruction ###############################################################################################)
