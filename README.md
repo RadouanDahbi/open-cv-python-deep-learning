@@ -21,7 +21,7 @@ DESCRIPTION DE LA FORMATION
 
 **Madjid Khichane** 
 
- Retrouvez mes autres formations sur [LinkedIn Learning].
+ Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com
