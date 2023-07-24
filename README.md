@@ -21,7 +21,7 @@ DESCRIPTION DE LA FORMATION
 
 **Madjid Khichane** 
 
- Retrouvez mes autres formations sur [LinkedIn Learning][https://www.linkedin.com/learning/search?entityType=COURSE&keywords=khichane&language=fr_FR].
+ Retrouvez mes autres formations sur [LinkedIn Learning].
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com
