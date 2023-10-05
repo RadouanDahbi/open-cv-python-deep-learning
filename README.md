@@ -25,7 +25,7 @@ DESCRIPTION DE LA FORMATION
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com
-[lil-thumbnail-url]: https:
-[lil-URL-trainer]: [https://](https://www.linkedin.com/learning/instructors/madjid-khichane)
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGJH9amHXU1TQ/learning-public-crop_675_1200/0/1694502240745?e=2147483647&v=beta&t=oMDx3YaGTmXjOtcCswMGyGgOIsJqrJ1RklhiBz6X0QM
+[lil-URL-trainer]: https://www.linkedin.com/learning/instructors/madjid-khichane
 
 [1]: # (End of FR-Instruction ###############################################################################################)
