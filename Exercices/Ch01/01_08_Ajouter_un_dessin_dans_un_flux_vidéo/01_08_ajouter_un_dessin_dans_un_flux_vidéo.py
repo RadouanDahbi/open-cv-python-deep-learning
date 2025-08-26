@@ -12,6 +12,9 @@ point_1 = (876,172)
 point_2 = (895,255)
 point_3 = (920,295)
 
+cv2.namedWindow("Image")
+cv2.moveWindow("Image",0,0)
+
 while(True):
 	ret, frame = cap.read()
 	if not ret:
@@ -22,10 +25,8 @@ while(True):
 	cv2.circle(frame, point_1, radius, color_1, line_width)
 	cv2.rectangle(frame, point_2, point_3, color_2, line_width) 
 
-	cv2.imshow("Image",frame)
-	cv2.moveWindow("Image",0,0) 
+	cv2.imshow("Image",frame) 
 
-	
 	if cv2.waitKey(1) & 0xFF == ord('q'):
 		break
 
