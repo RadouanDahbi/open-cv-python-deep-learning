@@ -23,5 +23,6 @@ print(f"La taille de l'objet img : {img.size}")
 print(f"img[:, :, 0] = \n{img[:, :, 0]}")
 print(f"img[0, 0, 0] = \n{img[0, 0, 0]}")
 print(f"img[0, 0][0] = \n{img[0, 0][0]}")
+print(f"img[0][0][0] = \n{img[0][0][0]}")
 
  
