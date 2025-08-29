@@ -1,11 +1,11 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('..\\..\\Data\\image_05.jpg',0)
+img = cv2.imread('../../Data/image_05.jpg',0)
  
 cv2.imshow("Original",img) 
 
-thresh = 100
+thresh = 150
 
  
 ret, thresh_1 = cv2.threshold(img,thresh,255,cv2.THRESH_BINARY)
