@@ -44,14 +44,20 @@ mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel, iterations=1)
 res_orig_2 = cv2.bitwise_and(img_org, img_org, mask=mask)
 # cv2.imshow("Result on Original 2", res_orig_2)
 
-ratio = 0.6
-img_org = cv2.resize(img_org, (0, 0), fx=ratio, fy=ratio)
-res_orig_1 = cv2.resize(res_orig_1, (0, 0), fx=ratio, fy=ratio)
-res_orig_2 = cv2.resize(res_orig_2, (0, 0), fx=ratio, fy=ratio)
-# print(res_orig_2.shape[:2])
+contours, hierarchy = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+res_ctr = img_org.copy()
+cv2.drawContours(res_ctr, contours, -1, (0,255,0), 2) 
 
-res_orig = np.concatenate((img_org, res_orig_1, res_orig_2), axis=1)
+ratio = 0.58
+img_org = cv2.resize(img_org, (0, 0), fx=ratio, fy=ratio)
+# res_orig_1 = cv2.resize(res_orig_1, (0, 0), fx=ratio, fy=ratio)
+res_orig_2 = cv2.resize(res_orig_2, (0, 0), fx=ratio, fy=ratio)
+res_ctr = cv2.resize(res_ctr, (0, 0), fx=ratio, fy=ratio)
+
+
+res_orig = np.concatenate((img_org, res_orig_2, res_ctr), axis=1)
 cv2.imshow("Result on Original", res_orig)
+cv2.moveWindow("Result on Original",0,0)
 
 
 cv2.waitKey(0)
