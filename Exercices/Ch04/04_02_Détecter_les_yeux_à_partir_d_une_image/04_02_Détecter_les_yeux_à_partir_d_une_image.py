@@ -1,7 +1,9 @@
 import cv2
 
-img = cv2.imread("..\\..\\Data\\image_01.jpg",1)
+img = cv2.imread("../../Data/image_06.jpg",1)
+
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
 path = "haarcascade_eye.xml"
 
  
