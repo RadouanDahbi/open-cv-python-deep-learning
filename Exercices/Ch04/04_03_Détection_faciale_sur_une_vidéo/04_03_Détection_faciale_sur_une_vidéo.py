@@ -10,6 +10,8 @@ eye_cascade = cv2.CascadeClassifier(path_xml_eye)
 
 while(True):
 	ret, frame = cap.read()
+	if not ret:
+		break
 
 	# frame = cv2.resize(frame, (0,0), fx=0.5,fy=0.5)
 	gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
